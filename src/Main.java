@@ -85,6 +85,15 @@ public class Main {
                 break;
             case 3:
                 System.out.println("Eseguo il programma 3");
+                Thread.sleep(500);
+                Map<Integer, String> elencotelefonico = new HashMap<>();
+                System.out.println("Quale operazione vuoi eseguire? 1-- Inserisci / 2-- Elimina / 3-- Ricerca per nome / 4-- Ricerca per numero / 5-- Visualizza tutta la lista");
+                int sceltadellarubrica = Integer.parseInt(sc.nextLine());
+                switch (sceltadellarubrica){
+                    case 1:
+                        break;
+
+                }
                 break;
             default:
                 System.out.println("Errore");
